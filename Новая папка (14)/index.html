@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>C</title>
+</head>
+<body>
+    <div class="wrapper">
+
+        <div class="road">
+        
+        <img class="car1" src="car1.svg" alt="White car">
+        
+        </div>
+        
+        <div class="road">
+        
+        <img class="car2" src="car2.svg" alt="Black car">
+        
+        </div>
+        
+        </div>
+        <div class="info">
+
+            <p >Твой счет:<span class="score"></span></p>
+            
+            <p>Твоя ставка: <span class="bet"></span></p>
+            
+            <button class="minus">-10</button>
+            
+            <button class="plus">+10</button>
+            
+            <p>кто победит?</p>
+            
+            <button onclick="check_winner('black')" class="black" >Черная</button>
+            
+            <button onclick="check_winner('white')" class="white">Белая</button>
+            
+            </div>
+            <style>
+            .wrapper{
+
+                display: flex;
+                
+                flex-direction: column;
+                
+                flex-wrap: nowrap;
+                
+                }
+                
+                .road{
+                
+                border: 1px solid black;
+                
+                width: 90%;
+                
+                height: 100px;
+                
+                }
+                
+                .car1, .car2{
+                
+                width: 90px;
+                }
+                .road{
+                
+                border: 1px solid black;
+                
+                width: 90%;
+                
+                height: 100px;
+                
+                background-image: url(finish.png);
+                
+                background-repeat: no-repeat;
+                
+                background-position: right;
+                
+                background-size: contain;
+                
+                }
+            </style> 
+    <script src="script.js"></script>
+</body>
+</html>
