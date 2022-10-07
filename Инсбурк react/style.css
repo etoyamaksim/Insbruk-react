@@ -1,0 +1,197 @@
+.container{
+width: 1200px;
+margin: 10px auto;
+}
+html,body{
+    margin: 0;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+}
+img{
+    max-width: 100%;
+    height: auto;
+}
+header{
+    display:flex;
+    width: 1200px;
+    margin: 10px auto;
+}
+.main-menu{
+    flex-grow: 1;
+}
+.main-menu-list{
+    list-style: none ;
+    padding: 0;
+    display: flex;
+    justify-content: space-around;
+}
+footer{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 35px 0;
+    color: black;
+    width: 1200px;
+    margin: 10px auto;
+}
+.hashtag{
+    margin: 0;
+    padding: 0;
+    font-size: 21px;
+    text-transform: uppercase;
+    line-height: 26px;
+}
+.footer-social{
+    display: flex;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    justify-content: center;
+}
+.social-button{
+    margin: 0 10px
+}
+.copyright{
+    margin: 0;
+    padding: 0;
+    font-size: 14px;
+    line-height: 26px;
+
+}
+.footer-wrap{
+    background-color: #B5D4C5;
+}
+h2{
+    color: #2A3D8F;
+    font-size: 36px;
+    line-height: 49px;
+}
+h3{
+    font-size: 30px;
+    line-height: 41px;
+}
+.slogan{
+    height: 558px; 
+    background: url("img/innsbruck1.png") center/cover no-repeat;
+}
+.slogan h1{
+    margin: 0;
+    padding-top: 240px;
+    font-size: 60px;
+    line-height: 82px;
+    color: white;
+}
+.class{
+    display: flex;
+    justify-content: space-between;
+}
+.about-numbers-list{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    padding-left: 20px;
+}
+.about-numbers-list li::before{
+    content: "✓"; 
+margin-right: 3px;
+
+}
+.marketing{
+    display: flex;
+    flex-direction: column;
+    background: url("img/skier.png") center/cover no-repeat;
+    width: 30%;
+}
+.marketing p{
+    margin: 0;
+    padding: 5px;
+    text-transform: uppercase;
+    font-size: 2vw;
+    line-height: 33px;
+}
+.marketing a{
+    text-transform: uppercase;
+    display: inline-block;
+    opacity: 0.7;
+background-color: white;
+color: #000;
+align-self: flex-end;
+margin-top: 60px;
+padding: 5px 10px;
+}
+.about-weather-graph{
+    border: thin #c0c0c0 solid; 
+
+display: flex; 
+
+flex-direction: column; 
+
+margin: 0;
+
+}
+.figcaption{
+    font-size: 23px;
+    line-height: 33px;
+    color: white;
+    padding: 3px;
+    text-align: center;
+}
+main{
+    width: 1200px;
+    margin: 0 auto;
+}
+.gallery-list{
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.gallery-item{
+    display: flex;
+    flex-direction: row;
+    margin: 0;
+    padding: 0;
+    margin-bottom: 10px;
+    align-items: center;
+    min-height: 256px; 
+    color: white;
+    background-color: #B5D4C5;
+    text-align: center;
+}
+/* 256 день=день програмиста */
+.gallery-item h3{
+    text-transform: uppercase;
+     flex-grow: 1; /* po idee vse horosho */
+}
+😀
+.transfer { 
+
+border-collapse: collapse; 
+
+margin:0 auto; 
+
+margin-bottom: 20px; 
+
+} 
+
+.transfer thead { 
+
+background-color: rgb(32, 46, 92); 
+
+color: #fff; 
+
+} 
+
+.transfer td,th { 
+
+border: 1px solid #333; 
+
+padding: 5px; 
+
+text-align: center; 
+
+width:25%;
+
+}

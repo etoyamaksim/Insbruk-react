@@ -1,0 +1,27 @@
+body {
+  width: 700px;
+}
+img{
+  display: flex;
+}
+.instrukcia{
+  display: flex;
+  flex-wrap: wrap;
+  /* да какое свойство нужно? */
+}
+.about{
+  display: flex;
+  justify-content: space-around;
+}
+.da{
+  display: flex;
+  flex-direction: column;
+}
+.zvezdi{
+  
+  color: yellow;
+}
+.container{
+  display: flex;
+  /* почему общий container не работает */
+}
