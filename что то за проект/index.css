@@ -1,0 +1,77 @@
+body {
+    background-size: 110%;
+    padding-top: 0;
+    margin-top: 0;
+    background-image: url(img/clouds.jpg);
+}
+.header-wrapper {
+    background-color: navajowhite;
+    margin: 0;
+    height: 100px;
+    padding-top: 1px;
+}
+h1 {
+    text-align: center;
+}
+.header-text {
+    text-align: center;
+    font-size: 28px;
+}
+.logo-wrapper {
+    width: 128px;
+    overflow: auto;
+}
+
+.logo {
+    width: 130px;
+    opacity: 0.5;
+    position: absolute;
+    top: 10px;
+    transform: rotate(180deg);
+    z-index: 5;
+}
+.tour {
+    width: 30%;
+    overflow: auto;
+    margin: 15px 10px;
+    float: right;
+    height: 500px;
+    border: 1px solid mintcream;
+    border-radius: 10px;
+    background-color: white;
+    text-align: center;
+    filter: drop-shadow(5px 5px 20px navajowhite); 
+}
+hr {
+    color: #000000;
+    margin-top: 0;
+    border: 1px solid #000000;
+}
+.tour-img {
+    width: 99%;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+.wrapper {
+    height: 1px;
+}
+
+.tour-button {
+    width: 150px;
+    border-radius: 5px;
+    border: none;
+    padding: 0;
+    position: relative;
+    top: 20px;
+    transition: all 1s ease-out;
+    color: blue;
+    padding: 10px;
+}
+.tour-button:hover {
+    padding: 20px;
+    font-size: 20px;
+    background-color: antiquewhite;
+}
+span {
+    color: blue;
+}
